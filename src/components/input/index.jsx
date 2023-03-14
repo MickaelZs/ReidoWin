@@ -4,37 +4,37 @@ export default function Input (){
     // let tem = ["Probabilidade","Valor da apostar","Currency","Lucro"];
     return(
         <Container>
-            <div className="b">
-                <div className="a">
-                <div>
-                    <h2>Probabilidade</h2>
-                    <input type="number" />
-                </div>
+           <div class="form">
+            <form action="#">
 
-                <div>
-                    <h2>Valor da apostar</h2>
-                    <input type="number" />
-                </div>
-                </div>
+                <div class="input-group">
+                  
+                    <div class="input-box">
+                        <label for="firstname">Probabilidade</label>
+                        <input id="firstname" type="number" name="firstname"  required/>
+                    </div>
 
-                <div>
-                <div>
-                    <h2>Currency</h2>
-                    <input  placeholder="BRL" />
-                </div>
+                    <div class="input-box">
+                        <label for="lastname">Valor da apostar</label>
+                        <input id="lastname" type="number" name="apostar" required/>
+                    </div>
+                   
 
-                <div>
-                    <h2>Lucro</h2>
-                    <input type="number"/> 
+                    <div class="input-box">
+                        <label for="number">Currency</label>
+                        <input type="number"  placeholder="BRL" name="currency" required/>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Lucro</label>
+                        <input id="password"  name="lucro"  required/>
+                    </div>
+
+
+
                 </div>
-                </div>
-            </div>
-            {/* {tem.map(item=>
-            <div className="a">
-                <h1>{item}</h1>
-                <input type="number" />
-            </div>
-            )} */}
+                </form>
+        </div>
         </Container>
     )
 }
