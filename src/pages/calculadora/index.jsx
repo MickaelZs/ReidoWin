@@ -6,7 +6,7 @@ export default function Calculadora (){
     return(
         <Container>
             <div>
-            <Input/>
+            
             </div>
            
         </Container>
