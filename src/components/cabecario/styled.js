@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
 
   header{
-  position: fixed;
+  position: absolute;
   top:0; left: 0; right: 0;
   z-index: 10000;
  
@@ -12,7 +12,11 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 }
+.insta{
 
+  width: 72px;
+height: 72px;
+}
 
 header .logo {
   font-size: 3.5rem;
