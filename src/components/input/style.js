@@ -30,9 +30,10 @@ export const Input = styled.input`
   border: 1px solid #b8b5b5;
   border-radius: 15px;
 
-  @media screen and (max-width: 320px) {
-    width: 200px;
-    height: 10px;
+  @media screen and (max-width: 320px) { 
+    width: 150px;
+    height: 10px; display: flex;
+    justify-content: center;
   }
   @media screen and (max-width: 480px) {
     display: flex;
