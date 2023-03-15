@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
 
   span {
-    margin: 7px 0 1.6em;
+    margin: 7px 0 1.2em;
   }
   font-size: 20px;
   font-family: "Inter";
