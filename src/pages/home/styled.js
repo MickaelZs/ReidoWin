@@ -1,13 +1,13 @@
+import styled from "styled-components"; 
 
-.home{
+export const Container = styled.div`
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background:url(../../asset/images/rdw.png) no-repeat;
+  background-image: url(${(props) => props.style?.backgroundImage});
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
 
 .content{
     margin-bottom: 90px;
@@ -85,3 +85,4 @@
   }
 
 }
+`

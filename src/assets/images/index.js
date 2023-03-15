@@ -1,3 +1,4 @@
 import Trash from '../images/trash.svg'
+import Logo from  '../images/background.png'
 
-export {Trash}
+export {Trash, Logo}
