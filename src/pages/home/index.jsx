@@ -9,7 +9,7 @@ export default function Home() {
 			<Cabecario />
 			<div className="content">
 				<h3>A calcuradora que sua aposta necessita</h3>
-				<button href="" className="btn">Abrir calcuradora</button>
+				<a href="/calculadora" className="btn">Abrir calcuradora</a>
 			</div>
 		</Container>
 	)
