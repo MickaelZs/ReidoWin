@@ -38,5 +38,17 @@ header .logo {
 header .logo span {
   color: #149A00;
 }
+@media screen and (min-width: 320px) and (max-width: 1200px){
+  .insta{
 
+width: 50px;
+height: 50px;
+}
+
+header .logo {
+font-size: 2.5rem;
+color: #727272;
+font-weight: bolder;
+}
+  }
 `;

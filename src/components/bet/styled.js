@@ -62,13 +62,20 @@ export const Container = styled.div`
     justify-content: space-between;
     width: 100%; 
   }
-
-  /* @media screen and (max-width: 480px) {
+  @media screen and  (min-width: 320px) and (max-width: 563px) {
     .input-group {
       display: flex;
 
       justify-content: center;
       align-items: center;
     }
-  } */
+  }
+  @media screen and  (min-width: 721px) and (max-width: 751px) {
+    .input-group {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `;

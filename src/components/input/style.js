@@ -45,5 +45,12 @@ export const Input = styled.input`
     justify-content: center;
     width: 200px;
     height: 10px;
-  }
+  } @media screen and (min-width: 481px) and (max-width: 506px) {
+    display: flex;
+    justify-content: center; 
+      } @media screen and (min-width:721px) and (max-width: 751px) {
+    display: flex;
+    justify-content: center; width: 230px;
+    height: 15px;
+      }
 `;
