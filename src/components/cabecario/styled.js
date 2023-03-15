@@ -24,6 +24,17 @@ header .logo {
   font-weight: bolder;
 }
 
+.logo {
+  -webkit-stroke-color: #FFF;
+   stroke-width: 1px;
+   text-decoration: none;
+   text-shadow: 
+      -1px -1px 0px #FFF, 
+      -1px 1px 0px #FFF,                    
+      1px -1px 0px #FFF,                  
+      1px 0px 0px #FFF;
+}
+
 header .logo span {
   color: #149A00;
 }
