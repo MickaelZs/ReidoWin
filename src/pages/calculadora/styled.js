@@ -15,31 +15,42 @@ export const Container = styled.div`
     padding: 3em 3em;
     margin: 8em;
   }
-  .a {
+  .links {
     display: flex;
     flex-direction: column;
     margin-bottom: 3em;
-    justify-content: center; align-items: center;
+    justify-content: center; 
+    align-items: center;
+
+    a {
+      outline: none;
+      text-decoration: none;
+      cursor: pointer;
+    }
   }
 
-  .bt { margin-bottom: 2em;
+  .bt { 
+    margin-bottom: 2em;
     background-color: #149a00;
     color: #fff;
     border: none;
     align-items: center;
     text-align: center;
     display: flex;
+    cursor: pointer;
     
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 15px;
-    width: 80%;
+    width: 29%;
     font-size: 20px;
+    text-align: center;
     height: 97px;
     .i { 
       width: 10%;
     }
   }
-  .bt-curso {border:solid 2px red;
+  .bt-curso {
+    border:solid 2px red;
     background-color: #149a00;
     color: #fff;
     border: none;
@@ -47,10 +58,10 @@ export const Container = styled.div`
     text-align: center;
     display: flex;
    
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 15px;
-    width: 40%;
-    font-size: 20px;
+    width: 29%;
+    font-size: 18px;
     height: 97px;
     img {
       width: 25%;

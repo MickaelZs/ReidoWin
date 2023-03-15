@@ -139,23 +139,13 @@ export default function Calculadora() {
           </div>
         </div>
       </div>
-      <div className="a">
-        {" "}
-        <div>
-          <a href="https://instagram.com/lamarcareidowin?igshid=YmMyMTA2M2Y=">
-            <button className="bt">
-              <img className="i" src={Instagram} alt="" /> NOS MANDE UM DIRECT
-              NO INSTAGRAM
-            </button>
-          </a>{" "}
-        </div>{" "}
-        <div>
-          <a href="https://pay.kiwify.com.br/76B6Inv">
-            <button className="bt-curso">
-              <img src={Logo} alt="" /> COMPRE NOSSO CURSO
-            </button>{" "}
-          </a>
-        </div>
+      <div className="links">
+				<a className="bt" href="https://instagram.com/lamarcareidowin?igshid=YmMyMTA2M2Y=" target="_blank">
+					<img className="i" src={Instagram} alt="" /> CHAMA NO DIRECT
+				</a>
+				<a className="bt-curso"  href="https://pay.kiwify.com.br/76B6Inv" target="_blank">
+					<img src={Logo} alt="" /> COMPRE NOSSO CURSO
+				</a>{" "}
       </div>
     </Container>
   );
