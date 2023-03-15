@@ -1,5 +1,6 @@
 import { Container } from "./styled"
 import Input from "../input"
+import { Trash } from "../../assets/images";
 
 export default function InputBoz (props){
     const {index} = props;
@@ -8,7 +9,10 @@ export default function InputBoz (props){
            <div class="form">
             <div className="index-trash">
                 <span> #0{index}</span>
-                <img src="../../../assets/images/trash.svg"/>
+                {index > 1 && (
+                    <img src={Trash}/>
+                )
+                }
             </div>
             <div class="input-group">
                 <Input label="Probalidade"/>

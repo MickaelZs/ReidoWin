@@ -9,7 +9,7 @@ export default function InputBoxc(props) {
         type={isCurrency ? 'text' : 'number'} 
         style={{backgroundColor: isBackground ? "#149A00" : '', color: isProfit ? "#FFF" : ''}} 
         disabled={isProfit}
-        value={isCurrency ? 'BRL' : ''}
+        value={isCurrency && 'BRL'}
       />
     </Container>
   )
