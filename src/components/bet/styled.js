@@ -11,6 +11,29 @@ export const Container = styled.div`
     align-items: center;
     background-color: transparent;
 
+    span {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 36px;
+    }
+    @media screen and (max-width: 320px) {
+      span {
+        font-size: 20px;
+      }
+      
+    } @media screen and (max-width: 480px) {
+        span {
+          font-size: 20px;
+        }
+        
+      } @media screen and (max-width: 720px) {
+        span {
+          font-size: 22px;
+        }
+        
+      }
     .index-trash {
       display: flex;
       flex-direction: column;
@@ -30,8 +53,6 @@ export const Container = styled.div`
 
       margin-right: 2em;
     }
-
-    
   }
   .input-group {
     display: flex;
