@@ -4,10 +4,11 @@ export const Container = styled.div`
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(${(props) => props.style?.backgroundImage});
-  background-size: cover;
+  background-image: url(${(props) => props.style?.backgroundImage}); 
+  background-size: 75%;
   background-position: center;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
 
 .content{
     margin-bottom: 90px;
