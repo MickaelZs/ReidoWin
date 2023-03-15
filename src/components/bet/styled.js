@@ -23,12 +23,14 @@ export const Container = styled.div`
         font-size: 20px;
       }
       
-    } @media screen and (max-width: 480px) {
+    } 
+    @media screen and (max-width: 480px) {
         span {
           font-size: 20px;
         }
         
-      } @media screen and (max-width: 720px) {
+    } 
+    @media screen and (max-width: 772px) {
         span {
           font-size: 22px;
         }
