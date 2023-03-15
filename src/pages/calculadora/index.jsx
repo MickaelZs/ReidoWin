@@ -1,5 +1,5 @@
 
-import Input from "../../components/input"
+import Input from "../../components/bet"
 import { Container } from "./styled"
 
 export default function Calculadora (){
