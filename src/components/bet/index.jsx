@@ -18,6 +18,7 @@ export default function FormBet (props){
         console.log(currency)
         console.log(lucro)
         
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [probabilidade, aposta])
 
     function onChanceFormHandle(setFunc, value, valuesObj) {
@@ -29,7 +30,8 @@ export default function FormBet (props){
            <div class="form">
             <div className="index-trash">
                 <span> #0{index + 1}</span>
-                {index == length - 1 && length !== 1 &&(
+                {index === length - 1 && length !== 1 &&(
+                    // eslint-disable-next-line jsx-a11y/alt-text
                     <img src={Trash} onClick={() => onDeleteItem(index)}/>
                     )
                 }
