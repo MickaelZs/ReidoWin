@@ -38,11 +38,11 @@ header .logo {
 header .logo span {
   color: #149A00;
 }
-@media screen and (min-width: 320px) and (max-width: 1200px){
+@media screen and (min-width: 320px) and (max-width: 11200px){
   .insta{
 
-width: 50px;
-height: 50px;
+width: 40px;
+height: 40px;
 }
 
 header .logo {
