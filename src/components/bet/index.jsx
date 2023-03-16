@@ -11,16 +11,6 @@ export default function FormBet (props){
     const [currency, setCurrency ] = useState();
     const [lucro, setLucro ] = useState();
 
-
-    useEffect(() => {
-        console.log(probabilidade)
-        console.log(aposta)
-        console.log(currency)
-        console.log(lucro)
-        
-    
-    }, [probabilidade, aposta, currency, lucro])
-
     function onChanceFormHandle(setFunc, value, valuesObj) {
         setFunc(value)
         onChangeForm(index, valuesObj)

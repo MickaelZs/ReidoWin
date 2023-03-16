@@ -21,7 +21,6 @@ export default function InputBoxc(props) {
     onHandleInput(novoValor); // chamando a função de callback passada pelo pai
   }
 
-  console.log(window.innerWidth)
   
   return (
     <Container> 

@@ -8,8 +8,3 @@ export function calcularSurebet(odds, valorTotalApostado) {
 
   return { lucroPorOdd };
 }
-
-// const odds = [3.4, 3.9, 2.8];
-// const valorTotalApostado = 100;
-// const { lucroPorOdd } = calcularSurebet(odds, valorTotalApostado);
-// console.log(lucroPorOdd); // retorna [10.163934426229509, 10.18181818181819, 10.166666666666666]

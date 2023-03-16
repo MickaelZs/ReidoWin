@@ -42,21 +42,7 @@ export default function Calculadora() {
       });
       return newArray;
     });
-
-    console.log(countForms);
   }
-
-  useEffect(() => {
-    console.log(
-      countForms.map((obj) => {
-        return obj.values.prob;
-      })
-    );
-  });
-
-  useEffect(() => {
-    console.log(valorTotal);
-  }, [valorTotal]);
 
   function removeItem(index) {
     const newItems = [...countForms];
