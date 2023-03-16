@@ -19,7 +19,7 @@ export default function FormBet (props){
         console.log(lucro)
         
     
-    }, [probabilidade, aposta])
+    }, [probabilidade, aposta, currency, lucro])
 
     function onChanceFormHandle(setFunc, value, valuesObj) {
         setFunc(value)
