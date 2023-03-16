@@ -10,13 +10,13 @@ export const Container = styled.div`
   font-size: 20px;
   font-family: "Inter";
   font-weight: 800;
-  
 `;
 
 export const Input = styled.input`
   ::-webkit-inner-spin-button {
     -webkit-appearance: none;
   }
+  
   font-family: "Inter";
   font-weight: 500;
   font-size: 18px;
@@ -30,27 +30,32 @@ export const Input = styled.input`
   border: 1px solid #b8b5b5;
   border-radius: 15px;
 
-  @media screen and (max-width: 320px) { 
-    width: 150px;
-    height: 10px; display: flex;
+  @media screen and (max-width: 320px) { display: flex;
     justify-content: center;
+    width: 10px;
+    height: 10px;
+   
   }
   @media screen and (max-width: 480px) {
     display: flex;
     justify-content: center;
-    width: 200px;
+    width: 10px;
     height: 10px;
-  } @media screen and (max-width: 720px) {
+  }
+  @media screen and (max-width: 720px) {
     display: flex;
     justify-content: center;
-    width: 200px;
+    width: 150px;
     height: 10px;
-  } @media screen and (min-width: 481px) and (max-width: 506px) {
+  }
+  @media screen and (min-width: 481px) and (max-width: 506px) {
     display: flex;
-    justify-content: center; 
-      } @media screen and (min-width:721px) and (max-width: 751px) {
+    justify-content: center;
+  }
+  @media screen and (min-width: 721px) and (max-width: 751px) {
     display: flex;
-    justify-content: center; width: 230px;
+    justify-content: center;
+    width: 230px;
     height: 15px;
-      }
+  }
 `;

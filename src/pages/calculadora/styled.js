@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.div` 
   display: flex;
   flex-direction: column;
   background-color: #000;
@@ -105,61 +105,7 @@ export const Container = styled.div`
       }
     }
   }
-  @media screen and (max-width: 320px) {
-    display: flex;
-    flex-direction: column;
-    background-color: #000;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-
-    .box-content {
-      margin-top: 5em;
-      background-color: #fff;
-      width: 100%;
-      border-radius: 10px;
-      padding: 3em 3em;
-      margin: 5em;
-    }
-    .boxActions {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-
-      .boxButtons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 50%;
-        font-size: 30px;
-        font-family: "Inter";
-
-        .AddForm {
-          width: 80%;
-          height: 60px;
-          color: #149a00;
-          background: #d2eedf;
-          border-radius: 15px;
-          border: solid 0px;
-          font-weight: 800;
-          font-size: 17px;
-          margin: 1em;
-        }
-        .resolve {
-          width: 80%;
-          margin: 1em;
-          height: 60px;
-          border: solid 0px;
-          background: #290aeb;
-          border-radius: 15px;
-          font-weight: 800;
-          color: #fff;
-          font-size: 17px;
-        }
-      }
-    }
-  }
+  
   @media screen and (min-width: 320px) and (max-width: 479px) {
     display: flex;
     flex-direction: column;

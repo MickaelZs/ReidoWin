@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
- 
+ /* *{border:solid 2px red;} */
   margin: 1em 0 2em;
   .form {
     position: relative;
@@ -65,7 +65,7 @@ export const Container = styled.div`
   @media screen and  (min-width: 320px) and (max-width: 563px) {
     .input-group {
       display: flex;
-
+      width:50%;
       justify-content: center;
       align-items: center;
     }
