@@ -4,6 +4,8 @@ export default function InputBoxc(props) {
 
   const {label, isBackground, isCurrency, isProfit, index, onHandleInput, value} = props;
 
+  const { innerWidth: width, innerHeight: height } = window;
+
   const [state, setState] = useState(value)
 
   function limitDecimalPlaces(e, count) {
@@ -18,10 +20,12 @@ export default function InputBoxc(props) {
     setState(novoValor);
     onHandleInput(novoValor); // chamando a função de callback passada pelo pai
   }
+
+  console.log(window.innerWidth)
   
   return (
     <Container> 
-      <span> {index <= 0 && label} </span>
+      <span> {(index <= 0 || window.innerWidth < 1470) && label} </span>
       <Input 
         type={isCurrency ? 'text' : 'number'} 
         style={{backgroundColor: isBackground && "#149A00", color: isProfit ? "#FFF" : isCurrency && "#149A00", fontWeight: isCurrency && 800}} 
