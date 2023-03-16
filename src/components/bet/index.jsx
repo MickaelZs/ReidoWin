@@ -25,7 +25,7 @@ export default function FormBet (props){
         setFunc(value)
         onChangeForm(index, valuesObj)
     }
-    return(
+    return( 
         <Container>
            <div class="form">
             <div className="index-trash">
